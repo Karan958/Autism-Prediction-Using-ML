@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 from sklearn.utils import class_weight
 
 # Load the trained model
-loaded_model = pickle.load(open("C:/Users/aweso/OneDrive/Desktop/majorporject/trained_model.sav", 'rb'))
+loaded_model = pickle.load(open("trained_model.sav", 'rb'))
 
 def predict_autism(age, jaundice, austim, result):
     # Custom prediction logic based on jaundice and austim
