@@ -36,7 +36,7 @@ def main():
     # Input fields
     age = st.number_input('Age', min_value=0, max_value=120, value=25)
     jaundice = st.selectbox('Jaundice', ['Yes', 'No'])
-    austim = st.selectbox('Austim', ['Yes', 'No'])
+    austim = st.selectbox('Showing symptoms of Austim', ['Yes', 'No'])
     result = st.number_input('Result', min_value=0, max_value=30, value=5)
 
 
